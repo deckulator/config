@@ -1,0 +1,16 @@
+{
+	"prerelease": true,
+	"repo": "cemu-project/Cemu",
+	"file": {
+		"pattern": "^Cemu-[\\\\.\\\\d]+-x86_64\\\\.AppImage$",
+		"extract": {
+			"main": null,
+			"other": []
+		}
+	},
+	"dependencies": [
+		"glu",
+		"gtk3",
+		"json-glib"
+	]
+}

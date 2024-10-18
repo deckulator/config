@@ -1,0 +1,12 @@
+{
+	"prerelease": false,
+	"repo": "PabloMK7/citra",
+	"file": {
+		"pattern": "^citra-linux-appimage-[\\\\.\\\\d]+\\\\.tar.gz$",
+		"extract": {
+			"main": "citra-qt.AppImage",
+			"other": []
+		}
+	},
+	"dependencies": []
+}

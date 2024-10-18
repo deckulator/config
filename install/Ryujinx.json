@@ -1,0 +1,18 @@
+{
+	"prerelease": false,
+	"repo": "Ryujinx/release-channel-master",
+	"file": {
+		"pattern": "^ryujinx-[\\\\.\\\\d]+-linux_x64\\\\.tar.gz$",
+		"extract": {
+			"main": "publish/Ryujinx",
+			"other": [
+				{ "from": "publish/libSkiaSharp.so", "to": "lib" },
+				{ "from": "publish/libHarfBuzzSharp.so", "to": "lib" }
+			]
+		}
+	},
+	"dependencies": [
+		"sdl2",
+		"openal"
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"prerelease": false,
+	"repo": "punesemu/puNES",
+	"file": {
+		"pattern": "^puNES-[\\\\.\\\\d]+-x86_64.AppImage$",
+		"extract": {
+			"main": null,
+			"other": []
+		}
+	},
+	"dependencies": []
+}

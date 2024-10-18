@@ -1,0 +1,12 @@
+{
+	"prerelease": false,
+	"repo": "flyinghead/flycast",
+	"file": {
+		"pattern": "^flycast-x86_64.AppImage$",
+		"extract": {
+			"main": null,
+			"other": []
+		}
+	},
+	"dependencies": []
+}
