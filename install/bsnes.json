@@ -3,13 +3,13 @@
 	"repo": "bsnes-emu/bsnes",
 	"file": {
 		"pattern": "^bsnes-ubuntu.zip$",
-		"extract": {
-			"main": "bsnes-nightly/bsnes",
-			"other": []
-		}
+		"extract": "bsnes-nightly/bsnes"
 	},
-	"dependencies": [
-		"libao",
-		"openal"
-	]
+	"depend": {
+		"download": [
+			"libao",
+			"openal"
+		],
+		"extract": []
+	}
 }
