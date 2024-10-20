@@ -1,0 +1,10 @@
+{
+  "consoles": [
+    "Nintendo/SNES"
+  ],
+  "filetypes": [
+    "bml",
+    "sfc",
+    "smc"
+  ]
+}
