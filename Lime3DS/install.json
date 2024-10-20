@@ -1,15 +1,12 @@
 {
 	"prerelease": false,
 	"repo": "Lime3DS/Lime3DS",
-	"file": "lime3ds-*-linux-appimage.tar.gz",
-	"depend": [],
-	"consoles": [
-    		"Nintendo/3DS"
-  	],
-	"launch": {
-		"exec": "lime3ds.AppImage",
-		"args": [
-			"--fullscreen"
-		]
+	"exec": {
+		"outer": "lime3ds-*-linux-appimage.tar.gz",
+		"inner": "lime3ds.AppImage"
 	}
+	"args": [
+		"--fullscreen"
+	]
+	"depend": []
 }
