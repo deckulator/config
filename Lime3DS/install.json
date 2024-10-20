@@ -7,6 +7,9 @@
 	}
 	"args": [
 		"--fullscreen"
+	],
+	"compat": [
+		"Nintendo/3DS"
 	]
 	"depend": []
 }
